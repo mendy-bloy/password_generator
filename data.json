@@ -1,0 +1,30 @@
+{
+    "google": {
+        "name": "google",
+        "min_uppers": 2,
+        "min_lowers": 2,
+        "min_digits": 0,
+        "length": 8
+    },
+    "\u05ea\u05e6\u05da\u05e2\u05e6\u05da\u05d3\u05db": {
+        "name": "\u05ea\u05e6\u05da\u05e2\u05e6\u05da\u05d3\u05db",
+        "min_uppers": 4,
+        "min_lowers": 3,
+        "min_digits": 4,
+        "length": 13
+    },
+    "poalim": {
+        "name": "poalim",
+        "min_uppers": 2,
+        "min_lowers": 4,
+        "min_digits": 3,
+        "length": 10
+    },
+    "github": {
+        "name": "github",
+        "min_uppers": 0,
+        "min_lowers": 1,
+        "min_digits": 1,
+        "length": 8
+    }
+}
