@@ -95,7 +95,7 @@ class App:
 
         self.window.result_entry = ctk.CTkEntry(
             master=self.window.frame_1,
-            # placeholder_text="Result Password",
+            placeholder_text="Result Password",
             textvariable=self.result,
             state="disabled",
             width=250,
