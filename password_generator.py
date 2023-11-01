@@ -75,7 +75,7 @@ class PasswordGenerator:
 
     def _handle_lower(self, hash_char: chr, password_target: PasswordTarget) -> str:
         """
-        Handles a lower case character.
+        Handles a lower case chaPasswordGeneratorracter.
 
         Args:
             hash_char (chr): given lower case hash character

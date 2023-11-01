@@ -26,5 +26,33 @@
         "min_lowers": 1,
         "min_digits": 1,
         "length": 8
+    },
+    "chatgpt": {
+        "name": "chatgpt",
+        "min_uppers": 0,
+        "min_lowers": 0,
+        "min_digits": 0,
+        "length": 0
+    },
+    "leumi bank": {
+        "name": "leumi bank",
+        "min_uppers": 2,
+        "min_lowers": 2,
+        "min_digits": 2,
+        "length": 8
+    },
+    "hjiklhjbnjpiohupi": {
+        "name": "hjiklhjbnjpiohupi",
+        "min_uppers": 3,
+        "min_lowers": 3,
+        "min_digits": 2,
+        "length": 8
+    },
+    "bgfsbggnas": {
+        "name": "bgfsbggnas",
+        "min_uppers": 4,
+        "min_lowers": 1,
+        "min_digits": 6,
+        "length": 12
     }
 }
