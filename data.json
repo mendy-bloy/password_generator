@@ -54,5 +54,40 @@
         "min_lowers": 1,
         "min_digits": 6,
         "length": 12
+    },
+    "aaa": {
+        "name": "aaa",
+        "min_uppers": 1,
+        "min_lowers": 2,
+        "min_digits": 3,
+        "length": 7
+    },
+    "google.com": {
+        "name": "google.com",
+        "min_uppers": 2,
+        "min_lowers": 2,
+        "min_digits": 4,
+        "length": 8
+    },
+    "hnjklnmkfle;wmnka[wv": {
+        "name": "hnjklnmkfle;wmnka[wv",
+        "min_uppers": 2,
+        "min_lowers": 3,
+        "min_digits": 2,
+        "length": 8
+    },
+    "my bank": {
+        "name": "my bank",
+        "min_uppers": 3,
+        "min_lowers": 4,
+        "min_digits": 1,
+        "length": 8
+    },
+    "my banK": {
+        "name": "my banK",
+        "min_uppers": 0,
+        "min_lowers": 0,
+        "min_digits": 0,
+        "length": 0
     }
 }

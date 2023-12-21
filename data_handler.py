@@ -38,7 +38,7 @@ class DataHandler:
             with open(self.json_file, "w+") as outfile:
                 json.dump({}, outfile, indent=4)
                 print(f"JSON file {self.json_file} created")
-
+    
     def update_data_file(self, password_target: PasswordTarget) -> None:
         """
         Update the data.json file.
@@ -46,10 +46,12 @@ class DataHandler:
         with open(self.json_file, "r+") as json_file:
             data = json.load(json_file)
             assert password_target.name in data
-            data[password_target.name]["min_uppers"] = password_target.min_uppers
-            data[password_target.name]["min_lowers"] = password_target.min_lowers
-            data[password_target.name]["min_digits"] = password_target.min_digits
-            data[password_target.name]["length"] = password_target.length
+            data[password_target.name].update({
+                        "min_uppers": password_target.min_uppers,
+                        "min_lowers": password_target.min_lowers,
+                        "min_digits": password_target.min_digits,
+                        "length": password_target.length
+                    })
             json_file.seek(0)
             json.dump(data, json_file, indent=4)
             json_file.truncate()
